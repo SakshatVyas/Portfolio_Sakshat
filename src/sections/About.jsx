@@ -17,10 +17,9 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Ali Sanati</p>
+            <p className="headtext">Hi, I'm Sakshat Vyas</p>
             <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+              Computer Science graduate with a strong foundation in software development and modern web technologies. Experienced in building responsive, user-focused applications using JavaScript, React.js, and REST APIs, along with working knowledge of Java, Python, and SQL. Demonstrates the ability to design clean, scalable solutions with attention to performance and usability. Quick learner with a problem-solving mindset and the ability to adapt to new tools and technologies in dynamic environments.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -35,42 +34,42 @@ const About = () => {
               CODE IS CRAFT
             </p>
             <Card
-              style={{ rotate: "75deg", top: "30%", left: "20%" }}
+              style={{ rotate: "15deg", top: "15%", left: "5%" }}
               text="GRASP"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
+              style={{ rotate: "-15deg", top: "15%", right: "5%" }}
               text="SOLID"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
+              style={{ rotate: "10deg", bottom: "15%", right: "5%" }}
               text="Design Patterns"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "55%", left: "0%" }}
+              style={{ rotate: "-10deg", bottom: "15%", left: "5%" }}
               text="Design Principles"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "20deg", top: "10%", left: "38%" }}
+              style={{ rotate: "5deg", top: "45%", left: "10%" }}
               text="SRP"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
+              style={{ rotate: "10deg", bottom: "45%", right: "10%" }}
               image="assets/logos/csharp-pink.png"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
+              style={{ rotate: "-15deg", top: "40%", right: "20%" }}
               image="assets/logos/dotnet-pink.png"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
+              style={{ rotate: "-10deg", bottom: "10%", left: "30%" }}
               image="assets/logos/blazor-pink.png"
               containerRef={grid2Container}
             />
@@ -81,7 +80,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              I'm based in Pathankot, Punjab, and open to work worldwide
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -99,12 +98,15 @@ const About = () => {
         </div>
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
-          <div className="z-10 w-[50%]">
-            <p className="headText">Teck Stack</p>
-            <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
-            </p>
+          <div className="z-10 w-[55%]">
+            <p className="headtext">Tech Stack</p>
+            <div className="subtext text-xs xl:text-sm mt-2 flex flex-col gap-1">
+              <p><b>Languages:</b> Java, Python, JavaScript</p>
+              <p><b>Frontend & APIs:</b> HTML, CSS, React.js, Tailwind CSS, REST APIs</p>
+              <p><b>Database:</b> SQL (MySQL)</p>
+              <p><b>Tools:</b> Git, GitHub, VS Code, NetBeans, MySQL Workbench, Excel, Tableau</p>
+              <p><b>Soft Skills:</b> Problem Solving, Teamwork, Communication, Adaptability</p>
+            </div>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
             <Frameworks />

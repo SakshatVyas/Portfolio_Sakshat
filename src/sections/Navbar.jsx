@@ -18,11 +18,6 @@ function Navigation() {
           Work
         </a>
       </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#contact">
-          Contact
-        </a>
-      </li>
     </ul>
   );
 }
@@ -36,7 +31,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            Ali
+            Sakshat
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}

@@ -1,278 +1,138 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+    title: "Brilliant Academy",
+    description: "A comprehensive educational platform for government exam preparation, featuring course listings, student testimonials, and a booking system for demo classes.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built an interactive UI to showcase course offerings and student success stories.",
+      "Implemented a seamless appointment booking flow for trial classes.",
+      "Ensured maximum mobile responsiveness and performance using Vite and Tailwind CSS."
     ],
-    href: "",
+    href: "https://brilliant-academy-mu.vercel.app/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/Screenshot 2026-04-01 at 12.23.43 PM.png",
     tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Tailwind", path: "/assets/logos/tailwindcss.svg" },
+      { id: 3, name: "Vite", path: "/assets/logos/vitejs.svg" },
+      { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 5, name: "HTML5", path: "/assets/logos/html5.svg" },
+      { id: 6, name: "CSS3", path: "/assets/logos/css3.svg" },
+      { id: 7, name: "GitHub", path: "/assets/logos/github.svg" }
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+    title: "Afsaana Premium Restaurant",
+    description: "A luxurious restaurant website with an interactive menu, cinematic gallery, and table reservation system to enhance the premium dining experience.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Designed a sleek, dark-themed interface to reflect the restaurant's premium branding.",
+      "Developed a table reservation portal connected to a scalable backend.",
+      "Optimized images and assets for quick load times on both mobile and desktop devices."
     ],
-    href: "",
+    href: "https://afsaana-premium-restaurant.vercel.app/",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/Screenshot 2026-04-01 at 12.24.08 PM.png",
     tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Tailwind", path: "/assets/logos/tailwindcss.svg" },
+      { id: 3, name: "Vite", path: "/assets/logos/vitejs.svg" },
+      { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 5, name: "HTML5", path: "/assets/logos/html5.svg" },
+      { id: 6, name: "CSS3", path: "/assets/logos/css3.svg" },
+      { id: 7, name: "GitHub", path: "/assets/logos/github.svg" }
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+    title: "Playbox Sports Arena",
+    description: "A premium sports facility booking platform. Enables users to reserve slots for cricket, pickleball, and lawn tennis with seamless online scheduling.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Integrated complex booking logic to handle multiple sports, courts, and time slots.",
+      "Developed an interactive dashboard for managing reservations and checking court availability.",
+      "Implemented mobile-first design principles for on-the-go booking."
     ],
-    href: "",
+    href: "https://playbox-sports-arena.vercel.app/",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/Screenshot 2026-04-01 at 12.24.17 PM.png",
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Tailwind", path: "/assets/logos/tailwindcss.svg" },
+      { id: 3, name: "Vite", path: "/assets/logos/vitejs.svg" },
+      { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 5, name: "HTML5", path: "/assets/logos/html5.svg" },
+      { id: 6, name: "CSS3", path: "/assets/logos/css3.svg" },
+      { id: 7, name: "GitHub", path: "/assets/logos/github.svg" }
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+    title: "Manjha Safety",
+    description: "A professional corporate website for safety solutions, showcasing services, product catalogs, and seamless contact integration for B2B client inquiries.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Built a robust product catalog layout to highlight various safety nets and solutions.",
+      "Added quick-contact forms and WhatsApp integrations for lead generation.",
+      "Optimized accessibility and SEO to improve online search visibility."
     ],
-    href: "",
+    href: "https://playbox-sports-arena.vercel.app/",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/Screenshot 2026-04-01 at 12.23.54 PM.png",
     tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Tailwind", path: "/assets/logos/tailwindcss.svg" },
+      { id: 3, name: "Vite", path: "/assets/logos/vitejs.svg" },
+      { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 5, name: "HTML5", path: "/assets/logos/html5.svg" },
+      { id: 6, name: "CSS3", path: "/assets/logos/css3.svg" },
+      { id: 7, name: "GitHub", path: "/assets/logos/github.svg" }
     ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  }
 ];
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/918264265431",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/sakshatvyas0321/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/_sakshat_23_/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Bachelor of Technology",
+    job: "Computer Science Engineering",
+    date: "2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Guru Nanak Dev University, Amritsar",
+      "CGPA: 8.11/10"
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Senior Secondary Education",
+    job: "Science stream / General",
+    date: "2021",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Sri Guru Harkrishan Public School",
+      "Percentage: 92.6%"
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Certifications",
+    job: "HackerRank",
+    date: "2024-2025",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Software Engineer Certificate – HackerRank (2025)",
+      "SQL (Advanced) – HackerRank (2024)"
     ],
   },
 ];
